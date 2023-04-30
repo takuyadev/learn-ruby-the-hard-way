@@ -9,7 +9,7 @@ def gold_room
     how_much = choice.to_i
   else
     dead("Man, learn to type a number.")
-  end
+  endW
 
   if how_much > 50
     puts "Nice, you're not greedy, you win!"
